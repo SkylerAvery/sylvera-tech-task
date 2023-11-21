@@ -19,7 +19,7 @@ export default function FeedEntry({
   const entryClasses = 'break-words border p-2'
 
   return (
-    <div role="row">
+    <div role="row" className="grid grid-cols-4 justify-between">
       <li role="cell" className={entryClasses}>
         {device_id ? device_id : 'Device ID of entry not found'}
       </li>

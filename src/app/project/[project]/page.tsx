@@ -45,7 +45,7 @@ export default async function ProjectPage({
       <p className="pb-2">
         {`Showing top 10 feeds out of ${parsedData.num_of_records}`}
       </p>
-      <ul className="list-none grid grid-cols-4 justify-between">
+      <ul className="list-none">
         <>
           <ProjectHeaders />
           {filteredFeeds.map((feedData, index) => (

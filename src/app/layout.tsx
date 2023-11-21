@@ -50,7 +50,7 @@ export default function RootLayout({
         <h1 className='text-center text-2xl font-extrabold py-3'>
           Sylvera Technical Task
         </h1>
-        <main className="px-5">
+        <main className="px-5 pb-5">
           {children}
         </main>
       </body>
